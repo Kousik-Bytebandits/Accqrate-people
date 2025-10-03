@@ -54,7 +54,7 @@ export default function AccordionCard({ value, icon, title, content }) {
         </div>
       </AccordionTrigger>
 
-      <AccordionContent className="px-1 pb-2 text-gray-700 text-sm">
+      <AccordionContent className="px-4 pb-2 text-gray-700 text-sm">
         {content}
       </AccordionContent>
     </AccordionItem>
